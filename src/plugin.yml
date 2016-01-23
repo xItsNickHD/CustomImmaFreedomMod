@@ -1,5 +1,6 @@
 name: ImmaFreedomMod
 main: me.stephenbullough.immafreedommod.immafreedommod
 version: 1.0
+authors: [AndySixx]
 description: A whole new aspect to freedom.
 commands:
