@@ -21,11 +21,11 @@ public class if_config
     {
         if (plugin == null)
         {
-            throw new IllegalArgumentException("plugin cannot be null");
+            throw new IllegalArgumentException("Plugin cannot be null");
         }
         if (!plugin.isInitialized())
         {
-            throw new IllegalArgumentException("plugin must be initialized");
+            throw new IllegalArgumentException("Plugin must be initialized");
         }
         this.plugin = plugin;
         this.fileName = fileName;
