@@ -5,16 +5,29 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class immafreedommod extends JavaPlugin
 {
+    //Variables
+    boolean thanksEnabled = true;
+    String thanks = "Thank you for using ImmaFreedom!";
+    String enable = "ImmaFreedomMod has been successfully disabled!";
+    String disable = "ImmaFreedomMod has been successfully disabled!";
+    
+    //
     public immafreedommod plugin;
     public final Logger logger = Logger.getLogger("Minecraft");
     
+    //
     public void onEnable()
     {
-        logger.info("ImmaFreedomMod has been successfully enabled!");
+        logger.info(enable);
     }
     
+    //
     public void onDisable()
     {
-        logger.info("ImmaFreedomMod has been successfully disabled!");
+        if (thanksEnabled == true)
+        {
+        logger.info(thanks);    
+        }
+        logger.info(disable);
     }
 }
