@@ -1,4 +1,4 @@
-package me.StevenLawson.TotalFreedomMod.Commands;
+package me.stevenbullough.immafreedommod.commands;
 
 import java.util.Collection;
 import org.bukkit.ChatColor;
@@ -19,11 +19,11 @@ public abstract class ifm_command
     private CommandSender commandSender;
     private Class<?> commandClass;
 
-    public TFM_Command()
+    public ifm_Command()
     {
     }
 
-    abstract public boolean run(final CommandSender sender, final Player sender_p, final Command cmd, final String commandLabel, final String[] args, final boolean senderIsConsole);
+    abstract public boolean run(final CommandSender sender, final Player sender_p, final Command cmd, final String commandLabel, final String[] args);
 
     public void setup(final immafreedommod plugin, final CommandSender commandSender, final Class<?> commandClass)
     {
