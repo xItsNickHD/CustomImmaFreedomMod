@@ -1043,7 +1043,7 @@ public class ifm_Util
 
         public void printTotalToLog(String timerName)
         {
-            TFM_Log.info("DEBUG: " + timerName + " used " + this.getTotal() + " ms.");
+            immafreedommod.plugin.log("DEBUG: " + timerName + " used " + this.getTotal() + " ms.");
         }
     }
 }
