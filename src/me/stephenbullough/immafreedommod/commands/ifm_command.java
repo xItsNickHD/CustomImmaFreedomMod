@@ -1,4 +1,4 @@
-package me.stevenbullough.immafreedommod.commands;
+package me.stephenbullough.immafreedommod.commands;
 
 import java.util.Collection;
 import org.bukkit.ChatColor;
