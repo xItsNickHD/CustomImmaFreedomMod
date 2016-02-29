@@ -1,3 +1,4 @@
+// SOME THINGS FROM TOTALFREEDOMMOD
 package me.stephenbullough.immafreedommod;
 
 import java.io.File;
