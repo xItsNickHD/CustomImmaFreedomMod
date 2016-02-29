@@ -1,6 +1,16 @@
-name: ImmaFreedomMod
-main: me.stephenbullough.immafreedommod.immafreedommod
-version: 1.1
-authors: [AndySixx]
-description: ImmaFreedoms new custom freedom mod.
-commands:
+#Plugin.yml for ImmaFreedomMod
+ name: ImmaFreedomMod
+ version: 1.1.0
+ description: ImmaFreedoms new custom freedom mod.
+ author: [AndySixx]
+ authors: [Dev1, Dev2, etc] 
+ 
+ main: me.stephenbullough.immafreedommod.immafreedommod
+ database: false
+ depend: []
+ 
+ commands:
+   BLANK:
+     description: BLANK
+     aliases: [BLANK]
+     usage: BLANK.
