@@ -22,7 +22,7 @@ public class ifm_CommandHandler
             senderIsConsole = false;
             playerSender = (Player) sender;
 
-            TFM_Log.info(String.format("[PLAYER_COMMAND] %s (%s): /%s %s",
+            immafreedommod.plugin.log(String.format("[PLAYER_COMMAND] %s (%s): /%s %s",
                     playerSender.getName(),
                     ChatColor.stripColor(playerSender.getDisplayName()),
                     commandLabel,
