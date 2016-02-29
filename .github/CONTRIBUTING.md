@@ -1,1 +1,1 @@
-Make sure your can code and it does not infringe copyright.
+Make sure you can code and it does not infringe copyright.
