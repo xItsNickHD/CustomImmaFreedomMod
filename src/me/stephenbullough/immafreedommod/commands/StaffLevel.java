@@ -2,7 +2,7 @@ package me.stephenbullough.immafreedommod.commands;
 
 public enum StaffLevel
 {
-    ALL("All Player Commands"), DEFAULT("DEFAULT Commands"), HELPER("HELPER Commands"), MOD("MOD Commands"), ADMIN("ADMIN Commands"), EXEC("EXECUTIVE Commands");
+    ALL("All Player Commands"), DEFAULT("DEFAULT Commands"), HELPER("HELPER Commands"), MOD("MOD Commands"), ADMIN("ADMIN Commands"), EXEC("EXECUTIVE Commands"), CONSOLE("CONSOLE Commands");
     //
     private final String friendlyName;
 
